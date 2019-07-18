@@ -1,0 +1,29 @@
+
+.full-image {
+  overflow: hidden;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+  img {
+    width: 80%;
+    float: right;
+  }
+}
+
+.writing {
+  img {
+    width: 100%;
+  }
+}
+/* For Mobile
+*/
+
+@media (max-width: 550px) {
+  .full-image {
+    img {
+      width: 300%;
+      float: left;
+      margin-left: 10rem;
+    }
+  }
+}

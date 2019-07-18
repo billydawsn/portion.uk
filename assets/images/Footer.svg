@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="349px" viewBox="0 0 1440 349" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Footer</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-42.000000, 0.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="42" y="0" width="1440" height="349"></rect>
+            <path d="M92.988007,413.283303 C220.573743,351.512975 330.391112,390.699656 465.230023,292.418723 C600.068934,194.13779 1079.51806,186.886989 1226.84269,134.43023 C1325.05912,99.4590575 1177.43256,54.6489808 783.963018,0 L55.3426932,0 L13.1836796,90.8240349 L13.1836796,500.86046 C-18.6705925,483.655908 7.93084995,454.463523 92.988007,413.283303 Z" id="Path" fill="#E5E4DE" opacity="0.167108445" transform="translate(628.218176, 250.430230) scale(1, -1) translate(-628.218176, -250.430230) "></path>
+            <g id="Group" transform="translate(110.133974, 74.000000)">
+                <g id="Group-4"></g>
+            </g>
+            <g id="Group-2" transform="translate(1379.000000, 29.000000)"></g>
+        </g>
+    </g>
+</svg>

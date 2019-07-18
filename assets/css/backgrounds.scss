@@ -1,0 +1,104 @@
+/* Backgrounds
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.light {
+	background-color: #f8f8f8;
+}
+
+.grey {
+	background-color: $off-white;
+}
+
+.green {
+	background-color: $green;
+	background-size: cover;
+}
+
+.light-wave {
+	background-image: url(images/light-background.png);
+	background-size: cover;
+}
+
+.light-wave-bottom {
+	background-image: url(images/light-background-bottom.png);
+	background-size: cover;
+}
+
+.light-wave-top {
+	background-image: url(images/light-background-top.jpg);
+	background-size: cover;
+}
+
+.diagonal-grey {
+	background-image: url(images/diagonal-grey.png);
+	background-size: cover;
+}
+
+.diagonal-dark {
+	background-image: url(images/diagonal-dark.png);
+	background-size: cover;
+}
+
+.confetti {
+	background-image: url(images/confetti.svg);
+	background-size: cover;
+}
+
+.about {
+	background-image: url(images/about-background.svg);
+	background-size: cover;
+}
+
+.dark {
+	background-color: $blue-dark;
+}
+
+.services-list {
+
+  padding: 4rem 4rem;
+  margin-bottom: 4rem;
+  background-color: $blue-light;
+  border-radius: 4px;
+
+	img {
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+	    margin-bottom: 2rem;
+	    margin-top: 2rem;
+	  }
+
+}
+
+.service-box {
+
+	padding: 2rem 4rem;
+	border-radius: 4px;
+	margin-bottom: 4rem;
+	border: solid 2px $blue-light;
+	border-radius: 4px;
+
+}
+
+.colour-block {
+
+	position: relative;
+	background-color: #ED6864;
+	height: 350px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.white-block {
+
+	position: relative;
+	background-color: $off-white;
+	height: 350px;
+	border-radius: 4px;
+	padding: 4rem 4rem;
+	color: #2B2D42;
+}

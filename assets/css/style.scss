@@ -1,0 +1,24 @@
+// Master Imports List
+//
+// Note that you have to get these imports in the right order.
+//
+// For example if you reference the colours sheet in the sheet you're working on
+// then make sure that it's imported after the colours! Just makes things imported
+// readable when compiled.
+
+/**
+
+Theme Name: eligam
+
+Theme Description: eligam theme
+
+*/
+
+@import "colours.scss";
+@import "skeleton.scss";
+@import "grid.scss";
+@import "backgrounds.scss";
+@import "normalize.scss";
+@import "typography.scss";
+@import "navigation.scss";
+@import "images.scss";

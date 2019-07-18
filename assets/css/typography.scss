@@ -1,0 +1,367 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+HTML is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px */
+
+
+
+@font-face {font-family: 'Circular-Std-Bold';src: url('assets/fonts/CircularStd-Bold.eot'), url('assets/fonts/CircularStd-Bold.woff2') format('woff2'),url('assets/fonts/CircularStd-Bold.woff') format('woff'),url('assets/fonts/CircularStd-Bold.ttf') format('truetype');}
+
+@font-face {font-family: 'Circular-Std-Medium';src: url('assets/fonts/CircularStd-Medium.eot'), url('assets/fonts/CircularStd-Medium.woff2') format('woff2'),url('assets/fonts/CircularStd-Medium.woff') format('woff'),url('assets/fonts/CircularStd-Medium.ttf') format('truetype');}
+
+@font-face {font-family: 'Circular-Std-Book';src: url('assets/fonts/CircularStd-Book.eot'), url('assets/fonts/CircularStd-Book.woff2') format('woff2'),url('assets/fonts/CircularStd-Book.woff') format('woff'),url('assets/fonts/CircularStd-Book.ttf') format('truetype');}
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 300;
+  color: $dark;
+}
+
+p, li, a {
+  font-family: 'Circular-Std-Book', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: $dark;
+  font-family: 'Circular-Std-Medium', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {font-size: 2.1em;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 0.4em;}
+h2 {     font-size: 1.5em;
+    line-height: 1.25;
+    font-weight: 300;
+    margin-bottom: 0.85em;
+    color: #474747;}
+h3 {
+  text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    color: $orange;
+  }
+h4 { font-size: 2.2rem; line-height: 1.35; font-weight: 600; margin-bottom: 2rem;}
+h5 { font-size: 1.8rem; line-height: 1.5;  font-weight: 100; margin-bottom: 1rem;}
+h6 { font-size: 1.5rem; line-height: 1.6; }
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.5rem; }
+  h3 { font-size: 0.75em;}
+  h4 { font-size: 1.9rem; }
+  h5 { font-size: 1.5rem; font-weight: 100; }
+  h6 { font-size: 1rem; }
+}
+
+p, li, a {
+  margin-top: 0;
+  letter-spacing: 0.02rem;
+  font-size: 0.7em;
+  line-height: 2.2em;
+}
+
+.footer {
+  a, p {
+    font-family: 'Circular-Std-Book', sans-serif;
+  }
+  #mc_embed_signup {
+    font-family: 'Circular-Std-Book', sans-serif;
+  }
+}
+
+ul {
+  padding-left: 1em;
+}
+
+blockquote {
+  text-align: center;
+
+  p {
+    font-style: italic;
+    color: $orange;
+  }
+}
+blockquote::before {
+  width: 20px;
+  height: 20px;
+  background-color: $orange;
+}
+.button {
+  font-size: 0.6em;
+}
+
+
+.link-cta {
+  font-size: 0.8em;
+}
+
+.light {
+  h1, h2, h4, p {
+    color: $blue-dark;
+  }
+  h3 {
+    color: $blue-medium;
+  }
+  .link-cta {
+      border-bottom: solid 2px $blue-light;
+      cursor: pointer;
+  }
+  a {
+    color: $dark;
+    text-decoration: none;
+  }
+}
+
+.dark {
+  h1, h2, h3, h4, h5, h6, p {
+    color: $off-white;
+  }
+  a {
+    color: $cta;
+  }
+  .link-cta {
+      border-bottom: solid 2px $cta;
+      cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.quote {
+  h3 {
+    margin-bottom: 0rem;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: $mobile) {
+  .quote {
+    h3 {
+      margin-bottom: 3.5rem;
+    }
+  }
+  .title-half {
+    p {
+      margin-bottom: 3.5rem;
+    }
+  .title {
+    text-align: left;
+  }
+  }
+  .client-list {
+    p {
+      margin-bottom: 3.5rem;
+    }
+  }
+}
+
+.title-half {
+  p {
+    margin-bottom: 1.5rem;
+  }
+  .title {
+    text-align: left;
+  }
+}
+
+.client-list {
+  p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.read-more {
+  transition: 0.5s;
+  margin-left: 0.3rem;
+}
+
+.link-cta:hover {
+  .read-more {
+    margin-left: 0.8rem;
+  }
+}
+
+.feature-list {
+  text-align: center;
+  img {
+    margin-bottom: 2rem;
+  }
+
+  h3, h4 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 6rem;
+  }
+}
+
+.services-list {
+
+  h3, h4, h5, h6, a, p {
+    text-align: center;
+    margin-bottom: 0;
+    color: $off-white;
+  }
+}
+
+.service-box {
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.full-image {
+  h1 {
+    font-size: 4rem;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 0rem;
+    position: absolute;
+  }
+}
+
+@media (max-width: 550px) {
+  .full-image {
+    h1 {
+      margin-left: 0rem;
+      margin-top: 7rem;
+    }
+  }
+}
+
+.half {
+  text-align: center;
+}
+
+.button {
+  color: $dark;
+
+}
+
+.form-box {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-family: 'Lora', serif;
+  color: $blue-dark;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.green {
+
+  p, h1, h2, h3, h4, h5, h6, {
+  color: $off-white;
+  }
+  a {
+    color: $cta;
+  }
+  .link-cta {
+      border-bottom: solid 2px $cta;
+      cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.middle {
+  margin: auto;
+}
+
+.team {
+
+  h3, h6 {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-top: 14rem;
+  }
+
+}
+
+.narrower {
+  li {
+    list-style: disc;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+  }
+}
+
+.writing {
+  h3 {
+    margin-bottom: 0rem;
+  }
+}
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -6px;
+  background: $dark;
+  height: 1px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p:last-child {
+  margin-bottom: 0rem;
+}
+
+.strong {
+  font-weight: 600;
+}
