@@ -16,14 +16,14 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="/wp-content/themes/portion/style.css?version=<?php echo round(microtime(true) * 1000) ?>">
+  <link rel="stylesheet" href="/wp-content/themes/portion.uk/style.css?version=<?php echo round(microtime(true) * 1000) ?>">
 
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="/wp-content/themes/portion/assets/js/base.js"></script>
-  <script src="/wp-content/themes/portion/assets/js/tilt.js"></script>
-  <script src="/wp-content/themes/portion/assets/js/mobile-nav.js"></script>
+  <script src="/wp-content/themes/portion.uk/assets/js/base.js"></script>
+  <script src="/wp-content/themes/portion.uk/assets/js/tilt.js"></script>
+  <script src="/wp-content/themes/portion.uk/assets/js/mobile-nav.js"></script>
   <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 
   <!-- Jarallax -->
@@ -93,7 +93,7 @@
 
   <div class="nav full-white" style="box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 20px;">
     <div class="container">
-    <a class="logo" href="/"><img class="nav-logo" alt="molino logo" title="molino logo" src="/wp-content/themes/portion/assets/images/molino-logo-blue.png" id="logo" width="300" height="auto" ></a>
+    <a class="logo" href="/"><img class="nav-logo" alt="molino logo" title="molino logo" src="/wp-content/themes/portion.uk/assets/images/molino-logo-blue.png" id="logo" width="300" height="auto" ></a>
       <ul class="navbar-list">
         <?php # wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
       </ul>

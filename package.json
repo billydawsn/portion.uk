@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "awesome-cliks-hd-captain-marvel-online-here": "^1.0.5",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
   },
   "devDependencies": {
     "gulp-sass": "^4.0.2",
