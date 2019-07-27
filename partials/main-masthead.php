@@ -7,4 +7,5 @@
     </div>
     <div class="header-scroll-icon"></div>
   </div>
+  <img class="hills" src="/wp-content/themes/portion.uk/assets/images/hills.svg">
 </div>
