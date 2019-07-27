@@ -1630,7 +1630,8 @@ a, button {
   height: 1.5em;
   border: 1px solid #fff;
   border-radius: .94073rem;
-  text-indent: -587.89981rem; }
+  text-indent: -587.89981rem;
+  z-index: 999; }
   .header-scroll-icon:before {
     content: '';
     animation: header-scroll-icon alternate .6s infinite linear;
