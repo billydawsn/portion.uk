@@ -1606,12 +1606,17 @@ a, button {
 .row {
   overflow-x: hidden; }
 
+.main-masthead .container .copy-block {
+  width: 30%; }
+
 .main-masthead h2 {
-  font-size: 1.4em;
-  line-height: 1.7em; }
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin-bottom: 3rem; }
 
 .main-masthead .logo {
-  width: 400px; }
+  width: 250px;
+  margin-bottom: 2.5rem; }
 
 .main-masthead .copy-block {
   padding-top: 0; }
