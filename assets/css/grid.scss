@@ -1598,12 +1598,19 @@ a, button {
 }
 
 .main-masthead {
+  .container {
+    .copy-block {
+      width: 30%;
+    }
+  }
   h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.7em;
+    margin-bottom: 3rem;
   }
   .logo {
-        width: 400px;
+    width: 250px;
+    margin-bottom: 2.5rem;
   }
   .copy-block {
     padding-top: 0;
