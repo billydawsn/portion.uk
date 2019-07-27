@@ -19,5 +19,5 @@
   wp_reset_postdata();
   ?>
 <div class="container narrow" style="text-align: center;">
-  <a href="/shop/"><button>view all posts<img src="/wp-content/themes/portion/assets/images/arrow.png"></button></a>
+  <a href="/shop/"><button>view all posts<img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
 </div>

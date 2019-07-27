@@ -12,7 +12,7 @@
         <div class="copy-block">
           <?php the_sub_field('copy'); ?>
           <?php if (get_sub_field('button_boolean') == "true") { ?>
-            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion/assets/images/arrow.png"></button></a>
+            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
           <?php } ?>
         </div>
       </div>
@@ -27,7 +27,7 @@
         <div class="copy-block" data-jarallax-element="-30">
           <?php the_sub_field('copy'); ?>
           <?php if (get_sub_field('button_boolean') == "true") { ?>
-            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion/assets/images/arrow.png"></button></a>
+            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
           <?php } ?>
         </div>
       </div>
@@ -44,7 +44,7 @@
         <div class="copy-block">
           <?php the_sub_field('copy'); ?>
           <?php if (get_sub_field('button_boolean') == "true") { ?>
-            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion/assets/images/arrow.png"></button></a>
+            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
           <?php } ?>
         </div>
         <div class="rounded-masthead" style="background: linear-gradient(to right, rgba(256, 256, 256, 0.7), rgba(256, 256, 256, 0.1)), url('<?php the_sub_field('image'); ?>'); background-size: cover; background-position: 50%;">
@@ -59,7 +59,7 @@
         <div class="copy-block" style="text-align: right;" data-jarallax-element="-30">
           <?php the_sub_field('copy'); ?>
           <?php if (get_sub_field('button_boolean') == "true") { ?>
-            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion/assets/images/arrow.png"></button></a>
+            <a href="<?php the_sub_field('button_link'); ?>"><button><?php the_sub_field('button_text'); ?><img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
           <?php } ?>
         </div>
         <div class="rounded-masthead" style="background: linear-gradient(to right, rgba(256, 256, 256, 0.7), rgba(256, 256, 256, 0.1)), url('<?php the_sub_field('image'); ?>'); background-size: cover; background-position: 50%;">

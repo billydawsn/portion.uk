@@ -35,7 +35,7 @@
       ?>
     </div>
   </div>
-  <a href="/shop/"><button style="margin-top: 6em;">view all products<img src="/wp-content/themes/portion/assets/images/arrow.png"></button></a>
+  <a href="/shop/"><button style="margin-top: 6em;">view all products<img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
 </div>
 
 <!-- END PRODUCT GRID LAYOUT -->

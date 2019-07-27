@@ -17,7 +17,7 @@
       <form action="https://molino.us19.list-manage.com/subscribe/post?u=08339a575bba3356282c4e543&amp;id=8b4340651a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="padding: 0;">
           <div id="mc_embed_signup_scroll">
           <input aria-label="Email Address" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-          <button aria-label="Submit Button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="float: left;">submit<img src="/wp-content/themes/portion/assets/images/arrow.png"></button>
+          <button aria-label="Submit Button" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="float: left;">submit<img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button>
 
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input style="background-color: white; height: 3em;" type="text" name="b_08339a575bba3356282c4e543_8b4340651a" tabindex="-1" value=""></div>
