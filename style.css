@@ -1631,7 +1631,7 @@ a, button {
   .main-masthead .container .copy-block {
     width: 80%; }
   .main-masthead .container .logo {
-    max-width: 80; }
+    max-width: 80%; }
   .main-masthead .hills {
     width: calc(100% - 20px); } }
 
