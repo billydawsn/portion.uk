@@ -1704,6 +1704,23 @@ a, button {
       font-size: 2.2rem!important;
       letter-spacing: normal!important;
     }
+    p {
+      font-size: 10pt;
+    }
+
+  }
+  .tplis-cl-cookies-content-text {
+    p {
+      font-size: 10pt;
+    }
+    a {
+      text-decoration: none;
+      text-transform: none;
+      border-bottom: 0;
+      font-weight: 200;
+      font-size: 10pt;
+      color: orange;
+    }
   }
   .tplis-cl-cookies-buttons {
      a {

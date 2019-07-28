@@ -1684,6 +1684,17 @@ a, button {
     border-right: none !important;
     font-size: 2.2rem !important;
     letter-spacing: normal !important; }
+  .tplis-cl-cookies .tplis-cl-cookies-head p {
+    font-size: 10pt; }
+  .tplis-cl-cookies .tplis-cl-cookies-content-text p {
+    font-size: 10pt; }
+  .tplis-cl-cookies .tplis-cl-cookies-content-text a {
+    text-decoration: none;
+    text-transform: none;
+    border-bottom: 0;
+    font-weight: 200;
+    font-size: 10pt;
+    color: orange; }
   .tplis-cl-cookies .tplis-cl-cookies-buttons a {
     white-space: nowrap !important;
     background-color: #F79D65 !important;
