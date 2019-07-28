@@ -1,4 +1,4 @@
-<div class="row masthead full-masthead main-masthead" style="overflow-x: hidden;background: linear-gradient(to top, rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.1)), url('/wp-content/themes/portion.uk/assets/images/forest.png'); background-size: cover; height: calc(100vh - 4em); background-position: 60%;">
+<div class="row masthead full-masthead main-masthead" style="overflow-x: hidden;background: linear-gradient(to top, rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.1)), url('/wp-content/themes/portion.uk/assets/images/forest.png'); background-size: cover; height: calc(100vh - 4em); background-position: 60% 0%;">
   <div class="container narrow">
     <div class="copy-block" data-jarallax-element="-30">
       <img class="logo" src="/wp-content/themes/portion.uk/assets/images/portion-logo-green.png">
