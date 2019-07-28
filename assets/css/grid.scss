@@ -1624,6 +1624,16 @@ a, button {
   }
 }
 
+@media (max-width: 800px) {
+  .main-masthead  {
+    .container {
+      .copy-block {
+        width: 80%;
+      }
+    }
+  }
+}
+
 
 .header-scroll-icon {
     position: absolute;

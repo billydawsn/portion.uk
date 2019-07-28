@@ -4,7 +4,9 @@
   <div class="container flex">
     <div class="bottom-links">
       <p>© portion <?php echo date('Y')?></p>
+      <a href="/">home</a>
       <a href="/privacy-policy/">policies</a>
+      <a href="/">*This site uses affiliate links, obviously.</a>
     </div>
     <!--
     <div class="two columns" style="margin-left: 0;">
