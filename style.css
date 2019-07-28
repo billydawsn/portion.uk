@@ -1664,6 +1664,16 @@ a, button {
   100% {
     top: 65%; } }
 
+@media (max-width: 800px) {
+  .header-scroll-icon {
+    border: 1px solid #000; }
+    .header-scroll-icon:before {
+      background-color: #000; } }
+
+@media (max-width: 700px) {
+  .header-scroll-icon {
+    display: none; } }
+
 /* Backgrounds
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .light {
