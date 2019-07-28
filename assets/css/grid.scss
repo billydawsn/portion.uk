@@ -1634,7 +1634,7 @@ a, button {
         max-width: 80;
       }
       .hills {
-        max-width: 100%;
+        width: calc(100% - 20px);
       }
     }
   }
