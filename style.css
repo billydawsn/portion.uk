@@ -1631,7 +1631,7 @@ a, button {
   .main-masthead .container .copy-block {
     width: 80%; }
   .main-masthead .container .logo {
-    max-width: 80vw; } }
+    max-width: 100%; } }
 
 .header-scroll-icon {
   position: absolute;
