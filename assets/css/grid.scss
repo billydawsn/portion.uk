@@ -1616,7 +1616,7 @@ a, button {
     padding-top: 0;
   }
   .hills {
-    width: 100%;
+    width: calc(100% - 20px);
     height: auto;
     position: absolute;
     bottom: 0;
