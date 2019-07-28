@@ -1630,11 +1630,9 @@ a, button {
       .copy-block {
         width: 80%;
       }
-    }
-    .hills {
-      height: 25vh;
-      width: 200%;
-      left: -50%;
+      .logo {
+        max-width: 80vw;
+      }
     }
   }
 }

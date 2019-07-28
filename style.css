@@ -1630,10 +1630,8 @@ a, button {
 @media (max-width: 800px) {
   .main-masthead .container .copy-block {
     width: 80%; }
-  .main-masthead .hills {
-    height: 25vh;
-    width: 200%;
-    left: -50%; } }
+  .main-masthead .container .logo {
+    max-width: 80vw; } }
 
 .header-scroll-icon {
   position: absolute;
