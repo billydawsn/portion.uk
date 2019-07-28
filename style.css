@@ -1694,7 +1694,9 @@ a, button {
     border-bottom: 0;
     font-weight: 200;
     font-size: 10pt;
-    color: orange; }
+    color: #F79D65; }
+  .tplis-cl-cookies .tplis-cl-cookies-content-text a:hover {
+    color: #4F6E5D; }
   .tplis-cl-cookies .tplis-cl-cookies-buttons a {
     white-space: nowrap !important;
     background-color: #F79D65 !important;
@@ -1719,7 +1721,7 @@ a, button {
   background-color: #E7F6F9; }
 
 .green {
-  background-color: #5B7C8D;
+  background-color: #4F6E5D;
   background-size: cover; }
 
 .light-wave {
