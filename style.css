@@ -1676,7 +1676,8 @@ a, button {
     display: none; } }
 
 .tplis-cl-cookies {
-  width: calc(100% - 20px) !important; }
+  width: calc(100% - 20px) !important;
+  padding: 15px 0px !important; }
   .tplis-cl-cookies .tplis-cl-cookies-head h4 {
     font-weight: 400 !important;
     text-transform: none !important;
