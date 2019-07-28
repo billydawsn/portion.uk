@@ -55,7 +55,7 @@ if (screen && screen.width > 500) {
   AOS.init();
 </script>
 
-<?php # wp_footer(); ?>
+<?php wp_footer(); ?>
 
 </body>
 </html>
