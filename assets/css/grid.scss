@@ -1631,7 +1631,10 @@ a, button {
         width: 80%;
       }
       .logo {
-        width: calc(100% - 20px);
+        max-width: 80;
+      }
+      .hills {
+        max-width: 100%;
       }
     }
   }
