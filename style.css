@@ -1633,6 +1633,7 @@ a, button {
   .main-masthead .container .logo {
     max-width: 80%; }
   .main-masthead .hills {
+    display: none;
     width: calc(100% - 20px); } }
 
 .header-scroll-icon {
