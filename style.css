@@ -1675,6 +1675,29 @@ a, button {
   .header-scroll-icon {
     display: none; } }
 
+.tplis-cl-cookies {
+  width: calc(100% - 20px) !important; }
+  .tplis-cl-cookies .tplis-cl-cookies-head h4 {
+    font-weight: 400 !important;
+    text-transform: none !important;
+    border-right: none !important;
+    font-size: 2.2rem !important;
+    letter-spacing: normal !important; }
+  .tplis-cl-cookies .tplis-cl-cookies a {
+    white-space: nowrap !important;
+    background-color: orange !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: 100 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    font-family: "Circular-Std-Book", sans-serif !important;
+    font-size: 1.5rem !important;
+    letter-spacing: 0.4px !important;
+    line-height: 34px !important;
+    padding: 8px 40px !important;
+    border-radius: 50px !important; }
+
 /* Backgrounds
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .light {
