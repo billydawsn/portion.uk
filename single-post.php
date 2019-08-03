@@ -65,7 +65,6 @@ get_header();
     <?php endforeach; ?>
   </div>
 
-<?php include("partials/email-subscribe.php") ?>
 
 <?php
 
