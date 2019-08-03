@@ -95,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="nav full-white" style="box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 20px;">
     <div class="container">
-    <!-- <a class="logo" href="/"><img class="nav-logo" alt="molino logo" title="molino logo" src="/wp-content/themes/portion.uk/assets/images/molino-logo-blue.png" id="logo" width="300" height="auto" ></a> -->
+      <a class="logo" href="/"><img class="nav-logo" alt="molino logo" title="molino logo" src="/wp-content/themes/portion.uk/assets/images/portion-logo-green.png" id="logo" width="300" height="auto" ></a>
       <ul class="navbar-list">
         <?php  wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
       </ul>

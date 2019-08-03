@@ -2447,7 +2447,6 @@ p:last-child {
   opacity: 1;
   top: 0;
   position: fixed;
-  height: 4em;
   margin-left: -10px; }
   .nav .logo {
     align-items: center;
