@@ -2545,7 +2545,8 @@ p:last-child {
 
 @media (max-width: 980px) {
   .nav {
-    display: flex; }
+    display: flex;
+    height: 4em; }
   .navbar-item {
     float: right;
     margin-right: 0;
