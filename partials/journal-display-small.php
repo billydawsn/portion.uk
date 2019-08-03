@@ -19,5 +19,5 @@
   wp_reset_postdata();
   ?>
 <div class="container narrow" style="text-align: center;padding-top: 3em;">
-  <a href="/journal/"><button>view all posts<img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
+  <a href="/"><button>go home<img src="/wp-content/themes/portion.uk/assets/images/arrow.png"></button></a>
 </div>
