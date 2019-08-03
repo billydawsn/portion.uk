@@ -3,7 +3,7 @@
 
   global $post; // required
   $args = array(
-    "posts_per_page" => 3,
+    "posts_per_page" => 9,
     "orderby"        => "post_date",
     "post_type"  => "post",
      );
