@@ -30,6 +30,13 @@ get_header();
   </div>
 <?php endif; ?>
 
+<div class="container narrow blog-page-copy" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease">
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+            the_content();
+          endwhile; else: ?>
+    <?php endif; ?>
+  </div>
+
 
 
 
