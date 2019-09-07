@@ -11,6 +11,8 @@ Theme Description: eligam theme
 .full-white {
   background-color: #ffffff; }
 
+/* New Colours
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Variables
@@ -55,7 +57,7 @@ input[type="button"] {
   transition: 0.3s ease-in-out 0.3s;
   box-sizing: border-box;
   font-size: 1.5rem;
-  background-color: #F79D65;
+  background-color: #F79C65;
   border: unset;
   color: white;
   font-size: 0.9em;
@@ -128,7 +130,7 @@ input[type="button"].button-primary:focus {
   height: 34px;
   background-position-y: 0%;
   padding: 3px 20px;
-  color: #F79D65;
+  color: #F79C65;
   text-align: center;
   font-weight: normal;
   text-decoration: none;
@@ -136,21 +138,21 @@ input[type="button"].button-primary:focus {
   font-family: 'Circular-Std-Book', sans-serif;
   background-color: transparent;
   border-radius: 0px;
-  border: 1px solid #F79D65;
+  border: 1px solid #F79C65;
   cursor: url(assets/images/circle-light.png) 10 10, auto;
   transition: 0.3s ease-in-out;
   box-sizing: border-box;
   box-sizing: border-box;
   background-size: 200% 220%;
-  background-image: linear-gradient(to top, #F79D65 50%, transparent 50%);
+  background-image: linear-gradient(to top, #F79C65 50%, transparent 50%);
   -webkit-transition: 400ms ease;
   -moz-transition: 400ms ease;
   -ms-transition: 400ms ease;
   -o-transition: 400ms ease;
   transition: 400ms ease; }
   .fill-button:hover {
-    border: 1px solid #F79D65;
-    background-image: linear-gradient(to top, #F79D65 51%, transparent 50%);
+    border: 1px solid #F79C65;
+    background-image: linear-gradient(to top, #F79C65 51%, transparent 50%);
     background-position: 0 100%;
     color: white;
     -webkit-transition: 400ms ease;
@@ -158,7 +160,7 @@ input[type="button"].button-primary:focus {
     -ms-transition: 400ms ease;
     -o-transition: 400ms ease;
     transition: 400ms ease;
-    border-color: #F79D65; }
+    border-color: #F79C65; }
 
 /* Forms
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1199,7 +1201,7 @@ hr {
     .blog-masthead .text h3 {
       font-size: 0.6em;
       font-weight: 600;
-      color: #F79D65;
+      color: #F79C65;
       margin-bottom: 0; }
 
 .featured-blog-holder {
@@ -1223,7 +1225,7 @@ hr {
 .main-section .image-test {
   width: 100%;
   height: 230px;
-  background-color: #F79D65; }
+  background-color: #F79C65; }
 
 .list-display .six:nth-of-type(2n + 1) {
   margin-left: 0em; }
@@ -1472,7 +1474,7 @@ a, button {
     .blog-page-copy .authorship .social-sharing {
       width: 100%; }
     .blog-page-copy .authorship .share {
-      color: #F79D65;
+      color: #F79C65;
       margin-bottom: 0.5em;
       margin-top: 0.5em;
       float: left; }
@@ -1694,12 +1696,12 @@ a, button {
     border-bottom: 0;
     font-weight: 200;
     font-size: 10pt;
-    color: #F79D65; }
+    color: #F79C65; }
   .tplis-cl-cookies .tplis-cl-cookies-content-text a:hover {
     color: #4F6E5D; }
   .tplis-cl-cookies .tplis-cl-cookies-buttons a {
     white-space: nowrap !important;
-    background-color: #F79D65 !important;
+    background-color: #F79C65 !important;
     text-transform: none !important;
     letter-spacing: normal !important;
     font-weight: 100 !important;
@@ -2202,7 +2204,7 @@ h3 {
   font-size: 0.75em;
   font-weight: 300;
   margin-bottom: 0.5em;
-  color: #F79D65; }
+  color: #F79C65; }
 
 h4 {
   font-size: 2.2rem;
@@ -2255,12 +2257,12 @@ blockquote {
   text-align: center; }
   blockquote p {
     font-style: italic;
-    color: #F79D65; }
+    color: #F79C65; }
 
 blockquote::before {
   width: 20px;
   height: 20px;
-  background-color: #F79D65; }
+  background-color: #F79C65; }
 
 .button {
   font-size: 0.6em; }
