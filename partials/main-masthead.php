@@ -1,10 +1,10 @@
 <div class="row masthead full-masthead" style="margin-top: 10px;background: #FCFBF8; background-size: cover; height: calc(100vh - 20px);">
 
   <div class="image_holder">
-    <div class="image left"><img src="assets/images/masthead_layer_0.png"></div>
-    <div class="image right"><img src="assets/images/masthead_layer_1.png"></div>
-    <div class="image right"><img src="assets/images/masthead_layer_2.png"></div>
-    <div class="image left"><img src="assets/images/masthead_layer_3.png"></div>
+    <div class="image left"><img src="/wp-content/themes/portion.uk/assets/images/masthead_layer_0.png"></div>
+    <div class="image right"><img src="/wp-content/themes/portion.uk/assets/images/masthead_layer_1.png"></div>
+    <div class="image right"><img src="/wp-content/themes/portion.uk/assets/images/masthead_layer_2.png"></div>
+    <div class="image left"><img src="/wp-content/themes/portion.uk/assets/images/masthead_layer_3.png"></div>
   </div>
 
   <div class="container narrow">
