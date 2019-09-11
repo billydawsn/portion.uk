@@ -1257,7 +1257,6 @@ hr {
   .full-masthead .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center; }
   .full-masthead .copy-block {
     width: 50%;
@@ -1271,7 +1270,8 @@ hr {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  align-items: center; }
   .home_masthead .container img {
     max-width: 200px;
     margin-bottom: 3rem; }

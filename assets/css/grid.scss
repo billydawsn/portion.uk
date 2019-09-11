@@ -1131,7 +1131,6 @@ $tablet: 800px;
   .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
   .copy-block {
@@ -1150,6 +1149,7 @@ $tablet: 800px;
     left: 0;
     right: 0;
     bottom: 0;
+    align-items: center;
 
     img {
       max-width: 200px;
