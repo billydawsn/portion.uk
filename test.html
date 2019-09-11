@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
 
   <!-- BASIC
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title><?php wp_title(); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link rel="icon" type="image/png" href="/wp-content/themes/portion.uk/favicon.png">
@@ -18,7 +15,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="/wp-content/themes/portion.uk/style.css?version=<?php echo round(microtime(true) * 1000) ?>">
+  <link rel="stylesheet" href="/wp-content/themes/portion.uk/style.css?version=1.1">
 
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -71,40 +68,58 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
 
-
-  <?php wp_head(); ?>
-
   <style>
     body {
       margin-top: 0px!important;
     }
+
+    .masthead {
+      position: relative;
+    }
+
+    .image_holder {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .image_holder .image {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .image_holder .left {
+      left: 0;
+    }
+
+    .image_holder .right {
+      right: 0;
+    }
+
+
+    .image_holder img {
+      width: 100%;
+    }
+
   </style>
 
 </head>
-<body style="width: auto;">
+<body>
+  <div class="row masthead full-masthead" style="margin-top: 10px;background: #FCFBF8; background-size: cover; height: calc(100vh - 20px);">
 
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSDNL8S"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<div class="bottom-frame"></div>
-
-  <!-- NAV
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <div class="nav" style="box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 20px;">
-    <div class="container">
-      <a class="logo" href="/"><img class="nav-logo" alt="molino logo" title="molino logo" src="/wp-content/themes/portion.uk/assets/images/portion-logo-green.png" id="logo" width="300" height="auto" ></a>
-      <ul class="navbar-list">
-        <?php  wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-      </ul>
-      <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
-    <div class="overlay" id="overlay">
-      <nav class="overlay-menu">
-        <?php  wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-      </nav>
+    <div class="image_holder">
+      <div class="image left"><img src="assets/images/masthead_layer_0.png"></div>
+      <div class="image right"><img src="assets/images/masthead_layer_1.png"></div>
+      <div class="image right"><img src="assets/images/masthead_layer_2.png"></div>
+      <div class="image left"><img src="assets/images/masthead_layer_3.png"></div>
     </div>
-    </div>
-</div>
 
-<!-- END HEADER -->
+    <div class="container narrow">
+
+    </div>
+  </div>
+
+</body>

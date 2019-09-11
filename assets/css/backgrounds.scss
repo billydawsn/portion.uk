@@ -102,3 +102,39 @@
 	padding: 4rem 4rem;
 	color: #2B2D42;
 }
+
+
+body {
+	margin-top: 0px!important;
+}
+
+.masthead {
+	position: relative;
+}
+
+.image_holder {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
+
+.image_holder .image {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.image_holder .left {
+	left: 0;
+}
+
+.image_holder .right {
+	right: 0;
+}
+
+
+.image_holder img {
+	width: 100%;
+}
