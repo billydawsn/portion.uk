@@ -1260,9 +1260,15 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 40%; }
+    max-width: 30%;
+    height: calc(100vh - 20px); }
     .full-masthead .container img {
-      max-width: 200px; }
+      max-width: 200px;
+      margin-bottom: 3rem; }
+    .full-masthead .container h2 {
+      margin-bottom: 4rem;
+      font-size: 1em;
+      text-align: center; }
   .full-masthead .copy-block {
     width: 50%;
     z-index: 10;
