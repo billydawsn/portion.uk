@@ -1257,8 +1257,12 @@ hr {
   display: flex; }
   .full-masthead .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    max-width: 40%; }
+    .full-masthead .container img {
+      max-width: 200px; }
   .full-masthead .copy-block {
     width: 50%;
     z-index: 10;
