@@ -1136,6 +1136,10 @@ $tablet: 800px;
     justify-content: center;
     max-width: 30%;
     height: calc(100vh - 20px);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
     img {
       max-width: 200px;
