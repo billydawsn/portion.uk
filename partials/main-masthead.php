@@ -1,4 +1,4 @@
-<div class="row masthead full-masthead home_masthead" style="margin-top: 10px;background: #FCFBF8; background-size: cover; height: calc(100vh - 20px);">
+<div class="row masthead full-masthead home_masthead" style="margin-top: 10px;background: #FCFBF8; background-size: cover; height: calc(100vh - 20px);margin-bottom: -10px;">
 
   <div class="image_holder">
     <div class="image left"><img src="/wp-content/themes/portion.uk/assets/images/masthead_layer_0.png"></div>
