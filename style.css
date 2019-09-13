@@ -1837,6 +1837,12 @@ body {
 .image_holder img {
   width: 100%; }
 
+.green {
+  background-color: #4F6E5D; }
+
+.beige {
+  background-color: #FCFBF8; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
