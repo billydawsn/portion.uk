@@ -142,6 +142,7 @@ body {
 .green {
 	background-color: $green;
 	position: relative;
+	overflow-x: visible;
 	&:after {
 		position: absolute;
 		bottom: -150px;

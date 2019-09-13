@@ -1839,7 +1839,8 @@ body {
 
 .green {
   background-color: #4F6E5D;
-  position: relative; }
+  position: relative;
+  overflow-x: visible; }
   .green:after {
     position: absolute;
     bottom: -150px;
