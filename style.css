@@ -2491,7 +2491,7 @@ p:last-child {
   z-index: 99;
   opacity: 1;
   top: 0;
-  position: fixed;
+  position: absolute;
   margin-left: -10px; }
   .nav .logo {
     align-items: center;
