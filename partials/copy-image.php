@@ -70,3 +70,7 @@
   <?php } ?>
 
 <?php } ?>
+
+<?php if (get_sub_field('background') == "green") { ?>
+<img class="module_wave" src="/wp-content/themes/portion.uk/assets/image/wave.svg">
+<?php } ?>
