@@ -141,6 +141,13 @@ body {
 
 .green {
 	background-color: $green;
+	position: relative;
+	&:after {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-image: url('/assets/images/wave.svg');
+	}
 }
 
 .beige {

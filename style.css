@@ -1838,7 +1838,13 @@ body {
   width: 100%; }
 
 .green {
-  background-color: #4F6E5D; }
+  background-color: #4F6E5D;
+  position: relative; }
+  .green:after {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url("/assets/images/wave.svg"); }
 
 .beige {
   background-color: #FCFBF8; }
