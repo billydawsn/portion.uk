@@ -144,9 +144,11 @@ body {
 	position: relative;
 	&:after {
 		position: absolute;
-		bottom: 0;
+		bottom: -150px;
 		width: 100%;
-		background-image: url('/assets/images/wave.svg');
+		height: 150px;
+		background-size: cover;
+		background-image: url('/wp-content/themes/portion.uk/assets/images/wave.svg');
 	}
 }
 
