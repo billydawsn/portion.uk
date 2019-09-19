@@ -935,6 +935,9 @@ hr {
     margin-top: 6em; }
 
 /* Featured Blogs */
+.featured-blogs {
+  background: #FCFBF8 !important; }
+
 .featured-blogs a {
   font-size: 1em; }
 
