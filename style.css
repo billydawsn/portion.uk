@@ -1449,7 +1449,7 @@ a, button {
   float: left; }
 
 .blog-page-copy {
-  background: white;
+  background: #FCFBF8;
   z-index: 10;
   text-align: justify;
   width: 50%;
