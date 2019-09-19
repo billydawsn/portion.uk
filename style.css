@@ -1618,6 +1618,8 @@ a, button {
 
 .copy-image {
   padding-top: 6em; }
+  .copy-image .container {
+    overflow: hidden; }
 
 .row {
   overflow-x: hidden; }

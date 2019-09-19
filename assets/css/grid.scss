@@ -1611,6 +1611,9 @@ a, button {
 
 .copy-image {
   padding-top: 6em;
+  .container {
+    overflow: hidden;
+  }
 }
 
 .row {
