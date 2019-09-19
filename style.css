@@ -2576,16 +2576,14 @@ p:last-child {
         margin-bottom: 0.2rem;
         font-weight: 500;
         font-size: 0.65em; }
-    .menu li:hover {
-      background-color: #FAFAF9; }
-      .menu li:hover .nav-dropdown {
-        display: block; }
-      .menu li:hover .underline:after,
-      .menu li:hover .underline:after,
-      .menu li:hover .underline:after {
-        left: 0;
-        right: auto;
-        width: 100%; }
+    .menu li:hover .nav-dropdown {
+      display: block; }
+    .menu li:hover .underline:after,
+    .menu li:hover .underline:after,
+    .menu li:hover .underline:after {
+      left: 0;
+      right: auto;
+      width: 100%; }
   .menu li a {
     text-decoration: none;
     color: #474747;
